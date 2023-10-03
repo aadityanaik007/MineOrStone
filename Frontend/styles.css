@@ -1,0 +1,40 @@
+body{
+    background-color: orange;
+}
+
+#middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50em;
+    height: 30em;
+    border-color: white;
+    background-color: white;
+    margin-top: 5em;
+    margin-left: 17em;
+}
+
+#csv_image{
+    width: 10em;
+    height: 10em;
+}
+#csv_div{
+    display: flex;
+    justify-content: center;
+}
+#csv_text{
+    color: grey;
+}   
+#outer-div{
+    margin-top: -10em;
+}
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-input {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

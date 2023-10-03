@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="middle">
+        <div class="col" id="outer-div">
+            <div id="csv_text" class="row"> 
+                <h1>Drop Your CSV file here</h1>
+            </div>
+            <div id="csv_div" class="row">
+                <img src="images/csv_uppload.png" alt="CSV uppload" id="csv_image">
+            </div>
+            <div id="csv_div" class="row">
+                <label for="file-upload" class="custom-file-input">
+                    or click to <label style="color: Red;" id="file-upload">choose the file</label>
+                </label>
+                <input type="file" id="file-upload" style="display: none;">
+            </div>
+            <div class="row" style="display: flex; justify-content: center;">
+                <button type="submit" 
+                style="margin-top: 1em;
+                color: white;
+                background-color: orange;
+                border-color: orange;
+                width: 14em;
+                border-radius: 50px;
+                height: 4em;">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
